@@ -1,0 +1,18 @@
+# Never send these into the Docker build context
+node_modules/
+dist/
+coverage/
+.git/
+.env
+.env.local
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# Test artifacts
+test-results/
